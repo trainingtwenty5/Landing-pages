@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Przekierowanie...</title>
-    <!-- Przekierowanie natychmiastowe -->
-    <meta http-equiv="refresh" content="0; url=https://mailchi.mp/46294250962b/grunteo-landing-pages">
+
+    <!-- Przekierowanie po 5 sekundach -->
+    <meta http-equiv="refresh" content="5; url=https://mailchi.mp/46294250962b/grunteo-landing-pages">
+
     <script>
-        // Dodatkowe zabezpieczenie, jeśli meta tag nie zadziała
-        window.location.href = "https://mailchi.mp/46294250962b/grunteo-landing-pages";
+        // Dodatkowe zabezpieczenie – przekierowanie po 5 sekundach
+        setTimeout(function () {
+            window.location.href = "https://mailchi.mp/46294250962b/grunteo-landing-pages";
+        }, 5000);
     </script>
-
-
-    
 </head>
 <body>
-    <p>Jeśli nie nastąpi automatyczne przekierowanie, kliknij <a href="https://mailchi.mp/46294250962b/grunteo-landing-pages">tutaj</a>.</p>
+    <p>Zostaniesz przekierowany za 5 sekund…</p>
+    <p>Jeśli nie nastąpi automatyczne przekierowanie, kliknij
+        <a href="https://mailchi.mp/46294250962b/grunteo-landing-pages">tutaj</a>.
+    </p>
 </body>
 </html>
